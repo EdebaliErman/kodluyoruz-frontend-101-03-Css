@@ -1,0 +1,145 @@
+section{
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+section article {
+    position: relative;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+
+    list-style-type: none;
+}
+
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    text-decoration: none;
+}
+
+nav li {
+    margin-right: 2rem;
+}
+
+li svg {
+    width: 30px;
+}
+
+nav button {
+    padding: 5px 15px 22px 12px;
+    border-radius: 9%;
+    border: none;
+    height: 25px;
+    background-color: rgb(31, 135, 245);
+    color: white;
+}
+
+
+section article button {
+    width: 148px;
+    height: 29px;
+    border: none;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 5px;
+
+    margin: 1rem;
+    background-color:  rgba(227, 224, 224, 0.098);
+}
+section article button:hover {
+
+    height: 29px;
+    border: none;
+    color: black;
+  
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    font-size: 17px;
+    margin: 1rem;
+    background-color:  rgba(227, 224, 224, 0.098);
+}
+
+
+svg {
+    height: 30px;
+    width: 30px;
+}
+section article img{
+    height: 92px;
+
+}
+
+section article .searchBlok {
+    
+    left: 47rem;
+ 
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 15rem;
+    box-shadow: 2px 2px 15px 1px grey;
+    width: fit-content;
+
+}
+
+.searchBlok input {
+    border: none;
+    width: 34rem;
+    height: 2rem;
+    color: grey;
+    outline: none;
+}
+
+.searchBlok input:hover {
+    color: grey;
+    border: none;
+
+}
+
+
+.icon-s {
+    position: absolute;
+    top: 12px;
+    left: 1rem;
+}
+
+svg {
+    height: 24px;
+    color: rgb(163, 159, 159);
+}
+footer article {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    bottom: -38rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer article ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer article li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    color: grey;
+    margin: 1rem;
+}
+
